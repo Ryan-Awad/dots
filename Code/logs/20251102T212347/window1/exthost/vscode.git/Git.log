@@ -1,0 +1,53 @@
+2025-11-02 21:23:59.710 [info] [main] Log level: Info
+2025-11-02 21:23:59.710 [info] [main] Validating found git in: "git"
+2025-11-02 21:23:59.710 [info] [main] Using git "2.51.2" from "git"
+2025-11-02 21:23:59.710 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-02 21:23:59.710 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-02 21:23:59.711 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-11-02 21:23:59.718 [info] [Model][openRepository] Opened repository (path): /home/rawad/skool/SEG3102/lab7-Ryan-Awad
+2025-11-02 21:23:59.718 [info] [Model][openRepository] Opened repository (real path): /home/rawad/skool/SEG3102/lab7-Ryan-Awad
+2025-11-02 21:23:59.718 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-02 21:23:59.721 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-02 21:23:59.728 [info] > git config --get commit.template [3ms]
+2025-11-02 21:23:59.729 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 21:23:59.732 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rawad/skool/SEG3102/lab7-Ryan-Awad/.git/refs/remotes/origin/main'
+2025-11-02 21:23:59.733 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 21:23:59.738 [info] > git status -z -uall [3ms]
+2025-11-02 21:23:59.739 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 21:23:59.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-02 21:23:59.758 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-11-02 21:23:59.758 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-02 21:23:59.760 [info] > git config --get commit.template [6ms]
+2025-11-02 21:23:59.762 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2025-11-02 21:23:59.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-02 21:23:59.765 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2025-11-02 21:23:59.769 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rawad/skool/SEG3102/lab7-Ryan-Awad/.git/refs/remotes/origin/main'
+2025-11-02 21:23:59.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-11-02 21:23:59.771 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-11-02 21:23:59.775 [info] > git status -z -uall [2ms]
+2025-11-02 21:23:59.776 [info] > git config --add --local branch.main.vscode-merge-base origin/main [5ms]
+2025-11-02 21:23:59.776 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] (cancelled)
+2025-11-02 21:23:59.782 [info] > git config --get commit.template [4ms]
+2025-11-02 21:23:59.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 21:23:59.785 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rawad/skool/SEG3102/lab7-Ryan-Awad/.git/refs/remotes/origin/main'
+2025-11-02 21:23:59.785 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-11-02 21:23:59.789 [info] > git status -z -uall [2ms]
+2025-11-02 21:23:59.790 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-02 21:23:59.795 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-11-02 21:23:59.799 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-11-02 21:23:59.802 [info] > git diff --name-status -z --diff-filter=ADMR 74283a98e98b4c928c053b79d8a082b0fb4e0ad0...refs/remotes/origin/main [4ms]
+2025-11-02 21:23:59.803 [info] > git diff --name-status -z --diff-filter=ADMR 74283a98e98b4c928c053b79d8a082b0fb4e0ad0...refs/remotes/origin/main [1ms]
+2025-11-02 21:24:00.265 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-02 21:24:00.862 [info] > git config --get commit.template [5ms]
+2025-11-02 21:24:00.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 21:24:00.867 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rawad/skool/SEG3102/lab7-Ryan-Awad/.git/refs/remotes/origin/main'
+2025-11-02 21:24:00.868 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-11-02 21:24:00.876 [info] > git status -z -uall [4ms]
+2025-11-02 21:24:00.877 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 21:24:02.803 [info] > git show --textconv :README.md [8ms]
+2025-11-02 21:24:02.812 [info] > git ls-files --stage -- README.md [10ms]
+2025-11-02 21:24:02.820 [info] > git cat-file -s a2a9d9e4b6dd6dfb26dd0da9349b28a019928f52 [3ms]
+2025-11-02 21:24:03.528 [info] > git blame --root --incremental 74283a98e98b4c928c053b79d8a082b0fb4e0ad0 -- README.md [1ms]
+2025-11-02 21:24:08.431 [info] > git show --textconv :README.md [3ms]
+2025-11-02 21:24:08.432 [info] > git ls-files --stage -- README.md [2ms]
+2025-11-02 21:24:08.436 [info] > git cat-file -s a2a9d9e4b6dd6dfb26dd0da9349b28a019928f52 [1ms]

@@ -1,0 +1,26 @@
+2025-11-02 21:27:20.088 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-02 21:27:20.215 [info] Started local extension host with pid 78866.
+2025-11-02 21:27:20.461 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-02 21:27:20.696 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-02 21:27:22.693 [error] Canceled: Canceled
+    at new _fn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:35768)
+    at nLt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:40420)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37905)
+    at sti.getSessions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:74044)
+    at vze.getSessions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:71221)
+    at vze.getAccounts (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:70430)
+    at pze.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:64878)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:64239
+    at Array.map (<anonymous>)
+    at Object.factory (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:64227)
+2025-11-02 21:27:22.694 [error] Canceled: Canceled
+    at new _fn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:35768)
+    at nLt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:40420)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37905)
+    at sti.getSessions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:74044)
+    at vze.getSessions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:71221)
+    at vze.getAccounts (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:70430)
+    at pze.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:64878)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:64239
+    at Array.map (<anonymous>)
+    at Object.factory (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:64227)
