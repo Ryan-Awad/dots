@@ -15,19 +15,6 @@
     }
   },
 
-  // Hyprland Window
-  "hyprland/window": {
-    "rewrite": {
-      "(.*) - Zen Browser": "$1",
-      "(.*) - Brave": "$1",
-      "(.*) - Chromium": "$1",
-      "(.*) - Brave Search": "$1",
-      "(.*) - Outlook": "$1",
-      "(.*) Microsoft Teams": "$1"
-    },
-    "separate-outputs": true
-  },
-
   // Rofi Application Launcher
   "custom/appmenu": {
     "format": "󰣇",
@@ -88,8 +75,8 @@
   "clock": {
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "󰥔 {0:%H:%M}",
-    "format-alt": "󰥔 {0:%H:%M}   {0:%d-%m-%Y}"
+    "format": "󰥔  {:%I:%M %p}",
+    "format-alt": "󰥔  {0:%I:%M %p}    {0:%d-%m-%Y}"
   },
 
   "hyprland/language": {
@@ -99,8 +86,8 @@
   // Network
   "network": {
     "format": "{ifname}",
-    "format-wifi": "  {signalStrength}%  {bandwidthDownBytes}  {bandwidthUpBytes} ",
-    "format-ethernet": "   {bandwidthDownBytes}  {bandwidthUpBytes} ",
+    "format-wifi": "   {signalStrength}%   {bandwidthDownBytes}   {bandwidthUpBytes} ",
+    "format-ethernet": "    {bandwidthDownBytes}   {bandwidthUpBytes} ",
     "format-disconnected": "󰲛 ",
     "tooltip-format": "  {ifname} via {gwaddri}",
     "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
@@ -118,13 +105,13 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}   {capacity}%",
-    "format-charging": "  {capacity}%",
-    "format-plugged": "  {capacity}%",
-    "format-alt": "{icon}  {time}",
+    "format": " {icon}   {capacity}%",
+    "format-charging": "   {capacity}%",
+    "format-plugged": "   {capacity}%",
+    "format-alt": " {icon}  {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": [" ", " ", " ", " ", " "]
+    "format-icons": ["", "", "", "", ""]
   },
 
   // Bluetooth

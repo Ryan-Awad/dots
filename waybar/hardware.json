@@ -1,11 +1,11 @@
 {
   "cpu": {
-    "format": " {usage}%",
+    "format": "  {usage}%",
     "on-click": "kitty -e htop"
   },
 
   "memory": {
-    "format": " {}%",
+    "format": "  {}%",
     "on-click": "kitty -e htop"
   },
 
@@ -20,6 +20,6 @@
 
   "group/hardware": {
     "orientation": "horizontal",
-    "modules": ["cpu", "memory", "disc", "temperature"]
+    "modules": ["cpu", "memory", "disc", "temperature", "battery"]
   }
 }
