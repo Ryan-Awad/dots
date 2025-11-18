@@ -33,7 +33,12 @@
   ],
   "logo": {
     "type": "kitty",
-    "source": "~/.config/fastfetch/arch.png",
+    "source": "~/.config/fastfetch/doomarch.png",
     "width": 35
+  },
+  "display": {
+	"color": {
+		"keys": "red"
+	}
   }
 }

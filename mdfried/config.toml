@@ -1,0 +1,28 @@
+padding = "Empty"
+enable_mouse_capture = false
+max_image_height = 30
+
+[skin]
+bold = "ansi(220) Bold"
+italic = "Italic"
+strikeout = "CrossedOut"
+inline_code = "ansi(203) ansi(236)"
+ellipsis = ""
+bullet = "• ansi(63)"
+quote = "▐ ansi(63) Bold"
+horizontal_rule = "― ansi(238)"
+scrollbar = "▐ ansi(253) ansi(237)"
+paragraph = ""
+code_block = "ansi(203) ansi(235) "
+table = "ansi(239) "
+headers = [
+    "Bold Underlined center",
+    "Underlined ",
+    "Underlined ",
+    "Underlined ",
+    "Underlined ",
+    "Underlined ",
+    "Underlined ",
+    "Underlined ",
+]
+table_border_chars = "standard"
