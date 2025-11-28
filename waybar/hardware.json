@@ -11,7 +11,7 @@
 
   "temperature": {
     "format": "{icon} {temperatureC}°C",
-    "format-icons": ["", "", ""],
+    "format-icons": ["", "", ""],
     "interval": 1,
     "critical-threshold": 80,
     "hwmon-path-abs": "/sys/devices/platform/coretemp.0/hwmon",
