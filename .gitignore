@@ -1,2 +1,13 @@
-Code/
-go/
+*
+
+!.gitignore
+!deps.sh
+
+!btop/
+!fastfetch/
+!htop/
+!kitty/
+!nwg-displays/
+!rofi/
+!wallpapers/
+
