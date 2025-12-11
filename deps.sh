@@ -7,7 +7,8 @@ pacman -Syu \
 	rofi \
 	kitty \
 	ttf-font-awesome \
-	nwg-displays
+	nwg-displays \
+	ly
 
 pacman -Syu \
 	btop \
