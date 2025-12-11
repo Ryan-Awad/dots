@@ -3,11 +3,22 @@
 !.gitignore
 !deps.sh
 
+!hypr/
+!hypr/**
+!waybar/
+!waybar/**
+!btop/
 !btop/**
+!fastfetch/
 !fastfetch/**
+!htop/
 !htop/**
+!kitty/
 !kitty/**
+!nwg-displays/
 !nwg-displays/**
+!rofi/
 !rofi/**
+!wallpapers/
 !wallpapers/**
 
