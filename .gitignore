@@ -2,6 +2,7 @@
 
 !.gitignore
 !deps.sh
+!README.md
 
 !hypr/
 !hypr/**
