@@ -3,11 +3,11 @@
 !.gitignore
 !deps.sh
 
-!btop/
-!fastfetch/
-!htop/
-!kitty/
-!nwg-displays/
-!rofi/
-!wallpapers/
+!btop/**
+!fastfetch/**
+!htop/**
+!kitty/**
+!nwg-displays/**
+!rofi/**
+!wallpapers/**
 
