@@ -4,6 +4,11 @@
 !setup.sh
 !README.md
 
+!.zshrc
+!.oh-my-zsh/
+!.oh-my-zsh/**
+!fonts/
+!fonts/**
 !hypr/
 !hypr/**
 !waybar/
