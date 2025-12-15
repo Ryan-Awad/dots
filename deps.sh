@@ -22,7 +22,8 @@ pacman -Syu \
 	kitty \
 	ttf-font-awesome \
 	nwg-displays \
-	ly
+	ly \
+	brightnessctl
 
 pacman -Syu \
 	btop \
