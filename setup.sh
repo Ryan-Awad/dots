@@ -47,9 +47,8 @@ install_pkgs() {
 }
 
 configure_symlinks() { # issue with files that already exist
-	ln -s ~/.config/fonts ~/.local/share/fonts
-	ln -s ~/.config/.oh-my-zsh ~/.oh-my-zsh
 	ln -s ~/.config/.zshrc ~/.zshrc
+	ln -s ~/.config/fonts ~/.local/share/fonts
 }
 
 main() {
