@@ -21,6 +21,7 @@ install_pkgs() {
 		rofi \
 		kitty \
 		ttf-font-awesome \
+		noto-fonts-emoji \
 		nwg-displays \
 		ly \
 		brightnessctl
