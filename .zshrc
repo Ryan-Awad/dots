@@ -106,3 +106,5 @@ source $ZSH/oh-my-zsh.sh
 alias cls='clear'
 
 fastfetch -C ~/.config/fastfetch/minimal.jsonc
+
+export EDITOR=nvim #for yazi
