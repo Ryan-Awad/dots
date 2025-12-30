@@ -17,6 +17,8 @@
   ],
   "modules-left": [
     "custom/appmenu",
+    "custom/cava",
+    "custom/playerinfo"
   ],
   "modules-center": [
     "hyprland/workspaces"

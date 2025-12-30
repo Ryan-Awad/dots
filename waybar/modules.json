@@ -139,5 +139,17 @@
       "deactivated": ""
     },
     "on-click-right": "hyprlock"
+  },
+
+  "custom/cava": {
+	  "format": "{}",
+	  "exec": "~/.config/waybar/scripts/cava.sh"
+  },
+
+  "custom/playerinfo": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/playerinfo.sh",
+    "interval": 1,
+    "escape": true
   }
 }

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# TODO:
+# * Configure Ly as desktop manager
+
 confirm_proceed() {
 	if [ "$1" != "" ]; then
 		echo $1
@@ -24,7 +27,9 @@ install_pkgs() {
 		noto-fonts-emoji \
 		nwg-displays \
 		ly \
-		brightnessctl
+		brightnessctl \
+		playerctl \
+		cava
 
 	sudo pacman -Syu \
 		btop \
