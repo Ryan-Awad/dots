@@ -29,7 +29,6 @@ install_pkgs() {
 		ly \
 		brightnessctl \
 		playerctl \
-		cava
 
 	sudo pacman -Syu \
 		btop \
@@ -42,6 +41,8 @@ install_pkgs() {
 		zellij \
 		fastfetch \
 		imagemagick \
+		cava \
+		grim \
 		bat \
 		unzip 
 
