@@ -9,7 +9,7 @@ grim \
 convert \
 	~/.cache/screenlock.png \
 	-scale 20% \
-	-blur 0x2 \
+	-blur 0x6 \
 	-resize 200% \
 	~/.cache/screenlock.png
 
