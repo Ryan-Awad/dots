@@ -4,6 +4,7 @@
 grim \
 	-s 1.5 \
 	-l 0 \
+	-o eDP-1 \
 	~/.cache/screenlock.png
 
 convert \
