@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cls='clear'
+alias ls='eza --icons=auto'
 
 fastfetch -C ~/.config/fastfetch/minimal.jsonc
 
