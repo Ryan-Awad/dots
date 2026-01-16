@@ -1,0 +1,2 @@
+colorscheme retrobox
+set number
