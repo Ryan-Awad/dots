@@ -1,6 +1,3 @@
 # my dots :)
 
-Tested on:
-
-* Arch Linux 6.17.9-arch1-1
-* Hyprland 0.52.2
+Currently used on [Arch Linux](https://archlinux.org/) w/ [Hyprland](https://hypr.land/) 0.53.0
