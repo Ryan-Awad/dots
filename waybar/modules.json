@@ -142,8 +142,8 @@
   },
 
   "custom/cava": {
-	  "format": "{}",
-	  "exec": "~/.config/waybar/scripts/cava.sh"
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/cava.sh"
   },
 
   "custom/playerinfo": {

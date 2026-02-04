@@ -17,7 +17,7 @@
   ],
   "modules-left": [
     "custom/appmenu",
-    //"custom/cava", removed for excessive GPU usage
+    "custom/cava", //previously removed for excessive GPU usage
     "custom/playerinfo"
   ],
   "modules-center": [
