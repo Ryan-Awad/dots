@@ -15,13 +15,13 @@
 
 @define-color base alpha(#000000, 0.1);
 /* @define-color surface alpha(@lavender, 0.15); */
-@define-color surface alpha(#000000, 0.5);
+@define-color surface alpha(@activeBg, 0.2);
 @define-color text #cdd6f4;
-@define-color hoverBg alpha(@mauve, 1);
+@define-color hoverBg alpha(@activeBg, 0.8);
 @define-color hoverFg #000000;
-@define-color activeBg alpha(@mauve, 1);
+@define-color activeBg @green;
 @define-color activeFg #000000;
-@define-color shadow alpha(@lavender, 0.25);
+/*@define-color shadow alpha(@lavender, 1.0); */
 
 * {
   all: unset;
@@ -41,11 +41,12 @@ button {
   min-width: 32px;
   min-height: 32px;
   border-radius: 999px;
-  color: @text;
-  box-shadow: 0px 0px 8px 4px @shadow inset;
+  color: white;
+  background-color: alpha(white, 0.15);
+  /*box-shadow: 0px 0px 8px 4px @shadow inset;*/
   transition:
-    all 50ms cubic-bezier(0.55, 0, 0.28, 1.682),
-    box-shadow 50ms ease-in-out,
+    all 200ms cubic-bezier(0.55, 0, 0.28, 1.682),
+    /* box-shadow 50ms ease-in-out, */
     background-color 200ms ease-in-out;
 }
 
@@ -66,6 +67,11 @@ tooltip {
 /*   background-color: #ff0000; */
 /* } */
 
+window#waybar {
+  background-color: alpha(white, 0.1);
+  border-radius: 25px;
+}
+
 window#waybar.empty #window {
   background-color: transparent;
 }
@@ -74,16 +80,20 @@ window#waybar.empty #window {
   margin-right: 8px;
 }
 
-#workspaces,
-#custom-appmenu,
+/* #workspaces, */
 #quicklinks,
 #media,
 #hardware,
 #clock,
-#custom-notification {
-  background-color: @surface;
+#custom-notification,
+#network {
+  background-color: @surface; /*******/
   border-radius: 999px;
-  box-shadow: 0px 0px 8px 4px @shadow inset;
+  /*box-shadow: 0px 0px 8px 4px @shadow inset;*/
+}
+
+#custom-appmenu {
+  background-color: alpha(black, 0.5);
 }
 
 #media,

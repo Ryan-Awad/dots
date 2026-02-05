@@ -20,7 +20,6 @@
     "format": "󰣇",
     "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings",
     "on-click": "rofi -show drun -replace & sleep 0.2; hyprctl dispatch focuswindow '^(Rofi)'",
-    "on-click-right": "~/.config/notscripter/scripts/keybindings.sh",
     "tooltip": false
   },
 
@@ -86,9 +85,9 @@
   // Network
   "network": {
     "format": "{ifname}",
-    "format-wifi": "   {signalStrength}%   {bandwidthDownBytes}   {bandwidthUpBytes} ",
-    "format-ethernet": "    {bandwidthDownBytes}   {bandwidthUpBytes} ",
-    "format-disconnected": "󰲛 ",
+    "format-wifi": "    {ipaddr}/{cidr} 📡 {signalStrength}%  ",
+    "format-ethernet": "   ",
+    "format-disconnected": " 󰲛  No connection  ",
     "tooltip-format": "  {ifname} via {gwaddri}",
     "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
@@ -147,7 +146,7 @@
   },
 
   "custom/playerinfo": {
-    "format": "{}",
+    "format": "<i>{} </i>",
     "exec": "~/.config/waybar/scripts/playerinfo.sh",
     "interval": 1,
     "escape": true
