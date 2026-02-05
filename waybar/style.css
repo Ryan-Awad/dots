@@ -19,7 +19,7 @@
 @define-color text #cdd6f4;
 @define-color hoverBg alpha(@activeBg, 0.8);
 @define-color hoverFg #000000;
-@define-color activeBg @green;
+@define-color activeBg @lavender;
 @define-color activeFg #000000;
 /*@define-color shadow alpha(@lavender, 1.0); */
 
@@ -87,7 +87,7 @@ window#waybar.empty #window {
 #clock,
 #custom-notification,
 #network {
-  background-color: @surface; /*******/
+  background-color: @surface;
   border-radius: 999px;
   /*box-shadow: 0px 0px 8px 4px @shadow inset;*/
 }
