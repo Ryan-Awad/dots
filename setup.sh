@@ -23,6 +23,7 @@ install_pkgs() {
     waybar \
     hyprlock \
     hyprpaper \
+    hyprsunset \
     rofi \
     kitty \
     ttf-font-awesome \
