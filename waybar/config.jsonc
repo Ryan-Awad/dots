@@ -17,16 +17,19 @@
   "modules-left": [
     "custom/appmenu",
     //"custom/cava", //previously removed for excessive GPU usage
-    "custom/playerinfo"
+    "group/media",
+    "network"
   ],
   "modules-center": [
     "hyprland/workspaces"
   ],
   "modules-right": [
-    "network",
+    "custom/playerinfo",
+    "cpu",
+    "memory",
+    "temperature",
     // "mpd",
-    "group/media",
-    "group/hardware",
+    "battery",
     "clock"
     //"custom/notification"
   ]

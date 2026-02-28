@@ -11,7 +11,7 @@
       "default": ""
     },
     "persistent-workspaces": {
-      "*": 5
+      "*": 3
     }
   },
 
@@ -74,8 +74,7 @@
   "clock": {
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "󰥔  {:%I:%M %p}",
-    "format-alt": "󰥔  {0:%I:%M %p}    {0:%d-%m-%Y}"
+    "format": "󰥔  {0:%I:%M %p}    {0:%Y-%m-%d}"
   },
 
   "hyprland/language": {
@@ -85,7 +84,7 @@
   // Network
   "network": {
     "format": "{ifname}",
-    "format-wifi": "    {ipaddr}/{cidr} 📡 {signalStrength}%  ",
+    "format-wifi": "    {ipaddr}/{cidr}  ",
     "format-ethernet": "   ",
     "format-disconnected": " 󰲛  No connection  ",
     "tooltip-format": "  {ifname} via {gwaddri}",
@@ -104,10 +103,10 @@
       "warning": 30,
       "critical": 15
     },
-    "format": " {icon}   {capacity}%",
-    "format-charging": "   {capacity}%",
-    "format-plugged": "   {capacity}%",
-    "format-alt": " {icon}  {time}",
+    "format": " {icon}   {capacity}%  ",
+    "format-charging": "   {capacity}%  ",
+    "format-plugged": "   {capacity}%  ",
+    //"format-alt": " {icon}  {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
     "format-icons": ["", "", "", "", ""]
@@ -146,7 +145,7 @@
   },
 
   "custom/playerinfo": {
-    "format": "<i>{} </i>",
+    "format": "  ♫ <i>{}  </i>",
     "exec": "~/.config/waybar/scripts/playerinfo.sh",
     "interval": 1,
     "escape": true

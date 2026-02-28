@@ -1,25 +1,27 @@
 {
   "cpu": {
-    "format": "  {usage}%",
-    "on-click": "kitty -e htop"
+    "format": "   {usage}%",
+    "on-click": "kitty -e htop",
+    "interval": 1
   },
 
   "memory": {
-    "format": "  {}%",
-    "on-click": "kitty -e htop"
+    "format": "   {}%",
+    "on-click": "kitty -e htop",
+    "interval": 1
   },
 
   "temperature": {
-    "format": "{icon} {temperatureC}°C",
+    "format": " {icon} {temperatureC}°C ",
     "format-icons": ["", "", ""],
     "interval": 1,
     "critical-threshold": 80,
     "hwmon-path-abs": "/sys/devices/platform/coretemp.0/hwmon",
     "input-filename": "temp1_input"
-  },
-
-  "group/hardware": {
-    "orientation": "horizontal",
-    "modules": ["cpu", "memory", "temperature", "battery"]
   }
+
+  // "group/hardware": {
+  //   "orientation": "horizontal",
+  //   "modules": ["cpu", "memory", "temperature", "battery"]
+  // }
 }
