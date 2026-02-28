@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo $(playerctl metadata --format '🎵 {{title}} — {{artist}}');
+echo $(playerctl metadata --format '♫ {{title}} — {{artist}}');
