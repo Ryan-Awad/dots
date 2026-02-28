@@ -24,6 +24,7 @@ install_pkgs() {
     hyprlock \
     hyprpaper \
     hyprsunset \
+    hyprshot \
     rofi \
     kitty \
     ttf-font-awesome \
