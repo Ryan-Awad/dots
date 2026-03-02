@@ -109,3 +109,4 @@ alias ls='eza --icons=auto'
 fastfetch -C ~/.config/fastfetch/minimal.jsonc
 
 export EDITOR=nvim #for yazi
+

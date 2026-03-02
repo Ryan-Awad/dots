@@ -18,7 +18,8 @@
     "custom/appmenu",
     //"custom/cava", //previously removed for excessive GPU usage
     "group/media",
-    "network"
+    "network",
+    "custom/piss"
   ],
   "modules-center": [
     "hyprland/workspaces"

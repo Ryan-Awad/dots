@@ -139,6 +139,7 @@
     "on-click-right": "hyprlock"
   },
 
+  // TRY ADDING escape -> true to see if it uses less GPU
   "custom/cava": {
     "format": "{}",
     "exec": "~/.config/waybar/scripts/cava.sh"
@@ -148,6 +149,12 @@
     "format": "  ♫ <i>{}  </i>",
     "exec": "~/.config/waybar/scripts/playerinfo.sh",
     "interval": 1,
+    "escape": true
+  },
+
+  "custom/piss": {
+    "format": "  {}  ",
+    "exec": "~/.config/waybar/scripts/piss.py",
     "escape": true
   }
 }
