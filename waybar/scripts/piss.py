@@ -34,11 +34,16 @@ def main():
     client.subscribe(sub)
 
     while True:
-        if listener.value:
-            print(f'🧑🏽‍🚀🚽 {listener.value}%')
-        else:
-            print('🧑🏽‍🚀❗')
-        sys.stdout.flush()
+        try:
+            if listener.value:
+                print(f'🧑🏽‍🚀🚽 {listener.value}%')
+            else:
+                print('🧑🏽‍🚀❗')
+            sys.stdout.flush()
+        except KeyboardInterrupt:
+            client.unsubscribe(sub)
+            client.disconnect()
+            
         time.sleep(0.1)
 
 if __name__ == '__main__':
