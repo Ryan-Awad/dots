@@ -146,7 +146,7 @@
   },
 
   "custom/playerinfo": {
-    "format": "  ♫ <i>{}  </i>",
+    "format": "  {}  ",
     "exec": "~/.config/waybar/scripts/playerinfo.sh",
     "interval": 1,
     "escape": true
