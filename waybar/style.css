@@ -93,6 +93,7 @@ window#waybar.empty #window {
 #custom-playerinfo,
 #custom-appmenu,
 #custom-piss,
+#custom-weather,
 #network {
   background-color: @surface;
   border-radius: 8px;

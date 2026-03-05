@@ -128,7 +128,7 @@
     "icon": false
   },
 
-  // Idle Inhibator
+  //Idle Inhibator
   "idle_inhibitor": {
     "format": "{icon}",
     "tooltip": true,
@@ -156,5 +156,12 @@
     "format": "  {}  ",
     "exec": "~/.config/waybar/scripts/piss.py",
     "escape": true
+  },
+
+  "custom/weather": {
+    "format": " {}  ",
+    "exec": "~/.config/waybar/scripts/weather.py",
+    "escape": true,
+    "interval": 600 // update every 10 mins
   }
 }

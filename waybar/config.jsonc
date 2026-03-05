@@ -19,6 +19,7 @@
     //"custom/cava", //previously removed for excessive GPU usage
     "group/media",
     "network",
+    "custom/weather",
     "custom/piss"
   ],
   "modules-center": [
