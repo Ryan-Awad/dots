@@ -23,7 +23,7 @@ def main():
     
     sub = Subscription(
         mode="MERGE",
-        items=["NODE3000005"],
+        items=["NODE3000005"], # the urine tank
         fields=["Value", "Status"]
     )
     

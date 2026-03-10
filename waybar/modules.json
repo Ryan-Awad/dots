@@ -162,6 +162,6 @@
     "format": " {}  ",
     "exec": "~/.config/waybar/scripts/weather.py",
     "escape": true,
-    "interval": 600 // update every 10 mins
+    "interval": 30 // update every 30 secs
   }
 }
