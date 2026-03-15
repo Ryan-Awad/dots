@@ -100,16 +100,17 @@
   "battery": {
     "states": {
       // "good": 95,
-      "warning": 30,
+      "warning": 25,
       "critical": 15
     },
     "format": " {icon}   {capacity}%  ",
-    "format-charging": "   {capacity}%  ",
-    "format-plugged": "   {capacity}%  ",
-    //"format-alt": " {icon}  {time}",
-    // "format-good": "", // An empty format will hide the module
-    // "format-full": "",
-    "format-icons": ["", "", "", "", ""]
+    "format-charging": "  {icon}   {capacity}%  ",
+    "format-plugged": "  {icon}   {capacity}%  ",
+    "format-icons": ["", "", "", "", ""],
+    "events": {
+	"on-discharging-warning": "notify-send -u normal 'Low battery'",
+	"on-discharging-critical": "notify-send -u critical 'Battery is critically low!'"
+    }
   },
 
   // Bluetooth

@@ -110,3 +110,5 @@ fastfetch -C ~/.config/fastfetch/minimal.jsonc
 
 export EDITOR=nvim #for yazi
 
+
+. "$HOME/.moon/bin/env"
