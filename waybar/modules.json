@@ -104,8 +104,8 @@
       "critical": 15
     },
     "format": " {icon}   {capacity}%  ",
-    "format-charging": "  {icon}   {capacity}%  ",
-    "format-plugged": "  {icon}   {capacity}%  ",
+    "format-charging": "   {capacity}%  ",
+    "format-plugged": "   {capacity}%  ",
     "format-icons": ["", "", "", "", ""],
     "events": {
 	"on-discharging-warning": "notify-send -u normal 'Low battery'",
