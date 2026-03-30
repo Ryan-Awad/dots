@@ -52,7 +52,12 @@ install_pkgs() {
     unzip
 
   sudo pacman -Syu \
-    firefox
+    firefox \
+    go
+  
+  go install golang.org/x/tools/gopls@latest
+  go install github.com/nametake/golangci-lint-langserver@latest
+  go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 
   # installing oh-my-zsh
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

@@ -114,3 +114,4 @@ export EDITOR=nvim #for yazi
 . "$HOME/.moon/bin/env"
 
 export PATH=$PATH:/home/rawad/.spicetify
+export PATH=$PATH:/home/rawad/go/bin
