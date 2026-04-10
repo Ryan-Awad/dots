@@ -38,3 +38,6 @@ end)
 
 vim.lsp.enable("gopls")
 vim.lsp.enable("golangci_lint_ls")
+
+-- use the system clipboard by default 
+vim.opt.clipboard = "unnamedplus"
