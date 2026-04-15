@@ -1,4 +1,4 @@
-# rawad's waybar
+# Ryan Awad's Waybar
 
 Inspired by:
  - https://gitlab.com/mrinmoyin/dotfiles/-/tree/main/waybar?ref_type=heads
