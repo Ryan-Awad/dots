@@ -41,3 +41,20 @@ vim.lsp.enable("golangci_lint_ls")
 
 -- use the system clipboard by default 
 vim.opt.clipboard = "unnamedplus"
+
+-- format Go code when writing to a buffer
+vim.api.nvim_create_autocmd("BufWritePre", {
+  pattern = "*.go",
+  callback = function()
+    vim.lsp.buf.format({ async = false })
+  end,
+})
+
+-- stop nvim-tree from hiding files that are gitignored
+require("nvim-tree").setup({
+  git = {
+    enable = true,
+    ignore = false,
+  },
+})
+
