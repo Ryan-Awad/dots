@@ -2,6 +2,9 @@
 
 !.gitignore
 
+!.assets/
+!.assets/**
+
 !setup.sh
 
 !README.md
