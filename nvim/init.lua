@@ -36,6 +36,7 @@ vim.schedule(function()
   require "mappings"
 end)
 
+vim.lsp.enable("pylsp")
 vim.lsp.enable("gopls")
 vim.lsp.enable("golangci_lint_ls")
 
