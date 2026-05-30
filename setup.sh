@@ -19,6 +19,8 @@ confirm_proceed() {
 
 install_pkgs() {
   sudo pacman -Syu \
+    git \
+    base-devel \
     zsh \
     waybar \
     hyprlock \
@@ -54,7 +56,18 @@ install_pkgs() {
   sudo pacman -Syu \
     firefox \
     go
-  
+
+  git clone https://aur.archlinux.org/yay.git
+  cd yay && makepkg -si && cd ..
+
+  # installing packages for system-wide dark theme
+  sudo pacman -Syu \
+    gnome-themes-extra
+  yay -Syu \
+    gnome-themes-extra-gtk2 \
+    adwaita-qt5-git \
+    adwaita-qt6-git
+
   go install golang.org/x/tools/gopls@latest
   go install github.com/nametake/golangci-lint-langserver@latest
   go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
