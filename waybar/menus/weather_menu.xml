@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<interface>
+    <object class="GtkMenu" id="menu">
+        <child>
+            <object class="GtkMenuItem" id="location">
+                <property name="label">Location: ByWard Market</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="wind_speed">
+                <property name="label">Wind Spped: 3.6 m/s</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="humidity">
+                <property name="label">Humidity: 84%</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="temp">
+                <property name="label">Temperature: 20°C</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="temp_feels">
+                <property name="label">Feels Like: 20°C</property>
+            </object>
+        </child>
+    </object>
+</interface>

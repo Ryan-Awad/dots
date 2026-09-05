@@ -85,12 +85,12 @@
   "network": {
     "format": "{ifname}",
     "format-wifi": "    {ipaddr}/{cidr}  ",
-    "format-ethernet": "   ",
+    "format-ethernet": "   ",
     "format-disconnected": " 󰲛  No connection  ",
-    "tooltip-format": "  {ifname} via {gwaddri}",
-    "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
-    "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
-    "tooltip-format-disconnected": "Disconnected",
+    "tooltip-format": "   {ifname} via {gwaddri}  ",
+    "tooltip-format-wifi": "    {essid} ({signalStrength}%)  ",
+    "tooltip-format-ethernet": "   {ifname} ({ipaddr}/{cidr})  ",
+    "tooltip-format-disconnected": " Disconnected  ",
     "max-length": 50,
     "interval": 1,
     "on-click": "nm-connection-editor"
@@ -163,6 +163,8 @@
     "format": " {}  ",
     "exec": "~/.config/waybar/scripts/weather.py",
     "escape": true,
-    "interval": 60 // update every minute
+    "interval": 120, // update every 2 minutes
+    "menu-file": "~/.config/waybar/menus/weather_menu.xml",
+    "menu": "on-click"
   }
 }

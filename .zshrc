@@ -112,5 +112,14 @@ export EDITOR=nvim #for yazi
 
 . "$HOME/.moon/bin/env"
 
-export PATH=$PATH:/home/rawad/.spicetify
-export PATH=$PATH:/home/rawad/go/bin
+export PATH=$PATH:$HOME/.spicetify
+export PATH=$PATH:$HOME/go/bin
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$HOME/.cargo/bin
+export PATH=$PATH:$HOME/.local/share/gem/ruby/3.4.0/bin
+
+# pyenv stuff
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
