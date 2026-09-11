@@ -18,7 +18,7 @@
         </child>
         <child>
             <object class="GtkMenuItem" id="temp">
-                <property name="label">Temperature: 18°C</property>
+                <property name="label">Temperature: 19°C</property>
             </object>
         </child>
         <child>
