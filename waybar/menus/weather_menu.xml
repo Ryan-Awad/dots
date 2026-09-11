@@ -8,22 +8,22 @@
         </child>
         <child>
             <object class="GtkMenuItem" id="wind_speed">
-                <property name="label">Wind Spped: 3.6 m/s</property>
+                <property name="label">Wind Spped: 5.14 m/s</property>
             </object>
         </child>
         <child>
             <object class="GtkMenuItem" id="humidity">
-                <property name="label">Humidity: 84%</property>
+                <property name="label">Humidity: 53%</property>
             </object>
         </child>
         <child>
             <object class="GtkMenuItem" id="temp">
-                <property name="label">Temperature: 20°C</property>
+                <property name="label">Temperature: 19°C</property>
             </object>
         </child>
         <child>
             <object class="GtkMenuItem" id="temp_feels">
-                <property name="label">Feels Like: 20°C</property>
+                <property name="label">Feels Like: 18°C</property>
             </object>
         </child>
     </object>

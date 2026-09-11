@@ -74,7 +74,7 @@
   "clock": {
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "󰥔  {0:%I:%M %p}    {0:%Y-%m-%d}"
+    "format": "󰥔 {0:%I:%M %p}  {0:%Y-%m-%d}"
   },
 
   "hyprland/language": {
@@ -84,34 +84,19 @@
   // Network
   "network": {
     "format": "{ifname}",
-    "format-wifi": "    {ipaddr}/{cidr}  ",
-    "format-ethernet": "   ",
-    "format-disconnected": " 󰲛  No connection  ",
-    "tooltip-format": "   {ifname} via {gwaddri}  ",
-    "tooltip-format-wifi": "    {essid} ({signalStrength}%)  ",
-    "tooltip-format-ethernet": "   {ifname} ({ipaddr}/{cidr})  ",
-    "tooltip-format-disconnected": " Disconnected  ",
+    "format-wifi": "  {ipaddr}/{cidr}",
+    "format-ethernet": " ",
+    "format-disconnected": "󰲛 no connection",
+    "tooltip-format": "  {ifname} via {gwaddri}",
+    "tooltip-format-wifi": "  {essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+    "tooltip-format-disconnected": "disconnected",
     "max-length": 50,
     "interval": 1,
     "on-click": "nm-connection-editor"
   },
 
-  // Battery
-  "battery": {
-    "states": {
-      // "good": 95,
-      "warning": 25,
-      "critical": 15
-    },
-    "format": " {icon}   {capacity}%  ",
-    "format-charging": "   {capacity}%  ",
-    "format-plugged": "   {capacity}%  ",
-    "format-icons": ["", "", "", "", ""],
-    "events": {
-	"on-discharging-warning": "notify-send -u normal 'Low battery'",
-	"on-discharging-critical": "notify-send -u critical 'Battery is critically low!'"
-    }
-  },
+  
 
   // Bluetooth
   "bluetooth": {
@@ -147,20 +132,20 @@
   },
 
   "custom/playerinfo": {
-    "format": "  {}  ",
+    "format": "{}",
     "exec": "~/.config/waybar/scripts/playerinfo.sh",
     "interval": 1,
     "escape": true
   },
 
   "custom/piss": {
-    "format": "  {}  ",
+    "format": "{}",
     "exec": "~/.config/waybar/scripts/piss.py",
     "escape": true
   },
 
   "custom/weather": {
-    "format": " {}  ",
+    "format": "{}",
     "exec": "~/.config/waybar/scripts/weather.py",
     "escape": true,
     "interval": 120, // update every 2 minutes

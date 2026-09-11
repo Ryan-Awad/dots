@@ -1,24 +1,48 @@
 {
   "cpu": {
-    "format": "   {usage}%",
+    "format": "cpu: {usage}%",
     "on-click": "kitty -e htop",
     "interval": 1
   },
 
   "memory": {
-    "format": "   {}%",
+    "format": "mem: {}%",
     "on-click": "kitty -e htop",
     "interval": 1
   },
 
   "temperature": {
-    "format": " {icon} {temperatureC}°C ",
+    "format": "temp: {temperatureC}°C",
     "format-icons": ["", "", ""],
     "interval": 1,
     "critical-threshold": 80,
     "hwmon-path-abs": "/sys/devices/platform/coretemp.0/hwmon",
     "input-filename": "temp1_input"
-  }
+  },
+
+
+  "disk": {
+    "interval": 30,
+    "format": "disk: {percentage_used}%",
+    "path": "/"
+  },
+
+  // Battery
+  "battery": {
+    "states": {
+      // "good": 95,
+      "warning": 25,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "events": {
+	    "on-discharging-warning": "notify-send -u normal 'Low battery'",
+	    "on-discharging-critical": "notify-send -u critical 'Battery is critically low!'"
+    }
+  },
 
   // "group/hardware": {
   //   "orientation": "horizontal",

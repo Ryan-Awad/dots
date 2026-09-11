@@ -23,7 +23,7 @@ def main():
     
     sub = Subscription(
         mode="MERGE",
-        items=["NODE3000005"], # the urine tank
+        items=["NODE3000005"], # the urine tank 
         fields=["Value", "Status"]
     )
     
@@ -36,9 +36,9 @@ def main():
     while True:
         try:
             if listener.value:
-                print(f'🧑🏽‍🚀🚽 {listener.value}%')
+                print(f'pISS: {listener.value}%')
             else:
-                print('🧑🏽‍🚀❗')
+                print('pISS: loading...')
             sys.stdout.flush()
         except KeyboardInterrupt:
             client.unsubscribe(sub)

@@ -27,22 +27,14 @@
   all: unset;
   color: @text;
   font-size: 1rem;
-  font-weight: 900;
-  font-family:
-    /* JetBrainsMonoNerdFont, */
-    Font Awesome,
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-weight: 700;
+  font-family: "JetBrainsMonoNerdFont"; 
   background-clip: border-box;
 }
 
 button {
   min-width: 32px;
   min-height: 32px;
-  border-radius: 999px;
-  background-color: @surface;
   /*box-shadow: 0px 0px 8px 4px @shadow inset;*/
   transition:
     all 200ms cubic-bezier(0.55, 0, 0.28, 1.682),
@@ -58,7 +50,7 @@ button.active {
   /*background: @activeBg;*/
   border-style: solid;
   border-color: @activeBg;
-  border-width: 1px;
+  border-bottom-width: 2px;
 }
 
 tooltip {
@@ -69,16 +61,20 @@ tooltip {
 /* } */
 
 window#waybar {
-  background-color: transparent;
-  border-radius: 25px;
+  background-color: alpha(@surface, 0.9);
+  border-radius: 10px;
 }
 
 window#waybar.empty #window {
   background-color: transparent;
 }
 
-#window {
-  margin-right: 8px;
+#media {
+  padding-left: 7px;
+}
+
+#clock {
+  padding-right: 7px;
 }
 
 /* #workspaces, */
@@ -95,7 +91,7 @@ window#waybar.empty #window {
 #custom-piss,
 #custom-weather,
 #network {
-  background-color: @surface;
+  background-color: transparent;
   border-radius: 8px;
   /*box-shadow: 0px 0px 8px 4px @shadow inset;*/
 }
@@ -116,19 +112,17 @@ window#waybar.empty #window {
   color: #afbdff;
 }
 
+#disk {
+  color: #E4B14E;
+}
+
 #custom-playerinfo {
-  background-color: @yellow;
-  color: @surface;
+  background-color: transparent;
+  color: @text;
 }
 
 #custom-appmenu {
   border-radius: 999px;
-}
-
-#media,
-#hardware,
-#clock {
-  padding: 0 8px;
 }
 
 #custom-quicklink1,
@@ -146,12 +140,6 @@ window#waybar.empty #window {
 }
 #custom-quicklink1 {
   /* margin-left: 0; */
-}
-
-#cpu,
-#memory,
-#disk {
-  padding-right: 0.5rem;
 }
 
 #custom-appmenu,

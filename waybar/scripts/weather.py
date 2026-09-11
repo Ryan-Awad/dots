@@ -88,7 +88,7 @@ def main() -> None:
         },
     )
 
-    print(f'{icon}   {temp}°C ({feels_like}°C)')
+    print(f'{icon} {temp}°C ({feels_like}°C)')
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 artist=$(playerctl metadata artist)
 
-metadata=$(playerctl metadata --format '{{duration(position)}} / {{duration(mpris:length)}} ♫')
+metadata=$(playerctl metadata --format '{{duration(position)}}/{{duration(mpris:length)}} ♫')
 if [ -z "$artist" ]; then
     metadata="$metadata $(playerctl metadata --format '{{title}}')"
 else

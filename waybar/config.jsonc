@@ -1,12 +1,12 @@
 {
   "layer": "top", // Waybar at top layer
   "position": "top", // Waybar position (top|bottom|left|right)
-  //"height": 16, // Waybar height (to be removed for auto height)
+  "height": 32, // Waybar height (to be removed for auto height)
   // "width": 1280, // Waybar width
-  "spacing": 8, // Gaps between modules (4px)
-  "margin-top": 8,
-  "margin-left": 8,
-  "margin-right": 8,
+  "spacing": 16, // Gaps between modules (4px)
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-right": 0,
   "mode": "dock",
   "reload_style_on_change": true,
   "include": [
@@ -15,24 +15,20 @@
     "~/.config/waybar/media.json"
   ],
   "modules-left": [
-    "custom/appmenu",
-    //"custom/cava", //previously removed for excessive GPU usage
     "group/media",
     "network",
     "custom/weather",
-    "custom/piss"
+    "custom/piss",
+    "custom/playerinfo",
   ],
   "modules-center": [
-    "hyprland/workspaces"
   ],
   "modules-right": [
-    "custom/playerinfo",
     "cpu",
     "memory",
+    "disk",
     "temperature",
-    // "mpd",
     "battery",
-    "clock"
-    //"custom/notification"
+    "clock",
   ]
 }
