@@ -62,7 +62,7 @@ tooltip {
 
 window#waybar {
   background-color: alpha(@surface, 0.9);
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 window#waybar.empty #window {
