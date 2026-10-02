@@ -123,3 +123,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
 
+# [[ -s "/home/rawad/.gvm/scripts/gvm" ]] && source "/home/rawad/.gvm/scripts/gvm"

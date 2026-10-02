@@ -37,8 +37,8 @@ def main():
         try:
             if listener.value:
                 print(f'pISS: {listener.value}%')
-            else:
-                print('pISS: loading...')
+            #else:
+            #    print('pISS: loading...')
             sys.stdout.flush()
         except KeyboardInterrupt:
             client.unsubscribe(sub)

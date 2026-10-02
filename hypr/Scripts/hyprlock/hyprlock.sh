@@ -1,6 +1,8 @@
 #!/bin/bash
 # inspired by https://www.reddit.com/r/hyprland/comments/1b45whm/comment/kt567np/
 
+# *** NO LONGER USED ***
+
 grim \
 	-s 1.5 \
 	-l 0 \
