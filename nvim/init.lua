@@ -59,3 +59,8 @@ require("nvim-tree").setup({
   },
 })
 
+--require('cmp').setup({
+--    completion = {
+--    autocomplete = false, -- Disable automatic popup
+--  },
+--})
